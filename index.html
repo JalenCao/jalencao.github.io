@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--
+  Adapted from Strata by HTML5 UP (AJ / @ajlkn).
+  https://html5up.net/strata | CC BY 3.0: https://html5up.net/license
+  Modified layout, typography, navigation and content; removed demo media and scripts.
+  Personal portfolio. Publication details are recorded with the source archive.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Zijian Cao, MSc Robotics student at The University of Manchester. Robot prototyping, mechanical design and numerical engineering analysis, with project videos and technical material.">
+  <title>Zijian Cao | Robotics &amp; Mechanical Design</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/strata.css">
+  <link rel="stylesheet" href="assets/css/portfolio.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header id="header">
+    <div class="inner">
+      <p class="sidebar-eyebrow">Personal portfolio</p>
+      <img class="portrait" src="assets/images/zijian-cao-portrait.png" width="422" height="591" alt="Portrait of Zijian Cao" decoding="async">
+      <h1>Zijian Cao</h1>
+      <p class="identity">MSc Robotics<br>The University of Manchester</p>
+      <p class="identity-note">Mechanical design · CAD · Engineering analysis</p>
+
+      <nav aria-label="Portfolio sections">
+        <a href="#about"><span>01</span> About me</a>
+        <a href="#work"><span>02</span> Selected work</a>
+        <a href="#background"><span>03</span> Skills &amp; education</a>
+        <a href="#contact"><span>04</span> Contact &amp; credits</a>
+      </nav>
+      <div class="profile-links">
+        <a class="profile-link" href="https://github.com/JalenCao">GitHub · JalenCao <span aria-hidden="true">↗</span></a>
+        <p><a class="profile-link" href="assets/files/zijian-cao-cv.pdf">View my CV · PDF, 44 KB <span aria-hidden="true">↗</span></a></p>
+      </div>
+    </div>
+    <div class="sidebar-bottom">
+      <span class="status-dot" aria-hidden="true"></span> Engineering portfolio
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section id="about" aria-labelledby="about-title">
+      <p class="section-kicker">01 / Introduction</p>
+      <h2 id="about-title">About me</h2>
+      <p class="lead">Mechanical design, robot prototyping<br class="desktop-break"> and engineering analysis.</p>
+      <p class="bio-copy">I am an MSc Robotics student at The University of Manchester, following a joint undergraduate programme at North China University of Technology and Brunel University of London. My experience includes CAD modelling, team prototype assembly and programming, and numerical analysis using XFOIL and ANSYS Fluent.</p>
+      <div class="technical-focus">
+        <h3>Technical interests &amp; development</h3>
+        <p>I am interested in how mechanical design, actuation and control come together in practical robotic systems. I am developing these skills through CAD, team prototyping and numerical analysis.</p>
+      </div>
+      <a class="text-link" href="#work">Explore selected work <span aria-hidden="true">↗</span></a>
+    </section>
+
+    <section id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">02 / Evidence of practice</p>
+          <h2 id="work-title">Selected work</h2>
+        </div>
+      </div>
+      <p class="section-intro">A robot prototype, a numerical aerofoil study and a vehicle design project, with my contributions and technical evidence.</p>
+      <nav class="project-index" aria-label="Selected project shortcuts">
+        <a href="#pipe-climbing-title">01 Pipe-climber prototype</a>
+        <a href="#aerofoil-title">02 Aerofoil study</a>
+        <a href="#ball-throwing-title">03 Ball-throwing vehicle</a>
+      </nav>
+
+      <article class="project-preview drawing-project first-project" aria-labelledby="pipe-climbing-title">
+        <p class="project-meta">01 / Team design &amp; build · ME2628 · Spring 2025</p>
+        <h3 id="pipe-climbing-title">Internal pipe climber: building and testing a prototype</h3>
+        <figure>
+          <video class="project-video" controls playsinline preload="none" width="1280" height="720" poster="assets/images/pipe-climber-trial-poster.jpg" aria-label="Team 2 internal pipe climber vertical-pipe trial" aria-describedby="pipe-video-caption">
+            <source src="assets/video/pipe-climber-trial.mp4" type="video/mp4">
+            <p><a href="assets/video/pipe-climber-trial.mp4">Open the vertical-pipe trial video (MP4)</a>.</p>
+          </video>
+          <figcaption id="pipe-video-caption">Team prototype moving inside a transparent vertical pipe, with a hanging load. A 10-second excerpt from the team’s recorded trials.</figcaption>
+        </figure>
+        <div class="project-content">
+          <dl class="project-story">
+            <div><dt>Goal</dt><dd>Build a wheel-driven robot that travels inside a vertical pipe and responds to target markings.</dd></div>
+            <div><dt>My work</dt><dd>I contributed to mechanical design, assembly and programming within a five-person team.</dd></div>
+            <div><dt>Iteration</dt><dd>The team replaced an underpowered motor, revised rocker-arm motion and repaired electrical connections before repeating the pipe trials.</dd></div>
+            <div><dt>Outcome</dt><dd>A working prototype shown moving in a vertical pipe, supported by development footage and team test records.</dd></div>
+            <div><dt>Judgement</dt><dd>The hardware revisions highlight the need to test drive, mechanism and sensing together in the pipe after the individual bench checks.</dd></div>
+          </dl>
+          <div class="project-links">
+            <a class="text-link" href="assets/video/pipe-climber-development.mp4">Development video · 92 s, 15.8 MB <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="assets/files/pipe-climber-team-poster.pdf">Team poster · PDF, 4.3 MB <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="assets/files/pipe-climber-team-checklist.pdf">Team checklist · PDF, 100 KB <span aria-hidden="true">↗</span></a>
+          </div>
+          <details class="study-notes">
+            <summary>Development sequence and test scope</summary>
+            <p>The development video covers CAD, assembly, motor replacement, infrared-sensor adjustment, troubleshooting and pipe trials. It includes English on-screen text and has no audio.</p>
+            <p>The checklist records line detection and stop/reverse behaviour. Load and timing entries are team-reported; the excerpt does not independently verify all tests or repeatability. The poster and detailed BOM contain different cost snapshots (17 and 19 items respectively).</p>
+          </details>
+          <details class="study-notes separate-concept">
+            <summary>Separate individual concept study · ME2624</summary>
+            <p id="pipe-concept-evidence">In the preceding theoretical course, I developed a different pipe-climbing concept with spring-supported wheel contact, CAD assembly drawings, component selection and a costed BOM. That concept was not physically built. The ME2628 team prototype shown above used a newly selected design.</p>
+            <div class="pipe-gallery">
+              <a href="assets/files/pipe-climbing-design-drawings.pdf" aria-label="Open the separate ME2624 concept-study drawings PDF"><img src="assets/images/pipe-climbing-drawing-1.png" width="1800" height="1273" loading="lazy" decoding="async" alt="ME2624 individual theoretical concept: multi-view drawing with two sets of three spring-supported wheel legs."></a>
+              <a href="assets/files/pipe-climbing-design-drawings.pdf#page=2" aria-label="Open page two of the separate concept-study drawings"><img src="assets/images/pipe-climbing-drawing-2.png" width="1800" height="1273" loading="lazy" decoding="async" alt="Exploded view and parts list of the separate ME2624 concept, rather than the built team prototype."></a>
+            </div>
+            <p class="concept-caption">Individual drawings: 27 December 2024; report: January 2025. <a href="assets/files/pipe-climbing-design-drawings.pdf">View concept drawings · PDF, 480 KB</a>.</p>
+          </details>
+        </div>
+      </article>
+
+      <article class="project-preview drawing-project" aria-labelledby="aerofoil-title">
+        <p class="project-meta">02 / Undergraduate final project · Report: April 2026</p>
+        <h3 id="aerofoil-title">Comparing NACA aerofoils for small UAV applications</h3>
+        <figure>
+          <div class="comparison-preview">
+            <a href="assets/images/fyp-coefficient-comparison.svg" aria-label="Open the full-size representative CFD coefficient comparison">
+              <picture>
+                <source media="(max-width: 560px), (min-width: 981px) and (max-width: 1100px)" srcset="assets/images/fyp-coefficient-comparison-mobile.svg" width="600" height="850">
+                <img src="assets/images/fyp-coefficient-comparison.svg" width="1200" height="480" loading="lazy" decoding="async" alt="Selected CFD case: NACA 2412 has lift coefficient 0.6291 and drag coefficient 0.0573; NACA 4412 has lift 0.7311 and drag 0.0671. Lift and drag use separate scales.">
+              </picture>
+            </a>
+          </div>
+          <figcaption>A selected CFD case at Re = 200,000 and 8° angle of attack, replotted from Table 4.2 (report p. 23). NACA 4412 gives higher lift and drag in this case. The two axes use separate scales. <a href="assets/images/fyp-coefficient-comparison.svg">View full-size chart</a>.</figcaption>
+        </figure>
+        <div class="project-content">
+          <dl class="project-story">
+            <div><dt>Goal</dt><dd>Compare NACA 2412 and NACA 4412 for low-Reynolds-number UAV applications.</dd></div>
+            <div><dt>My work</dt><dd>I compared aerodynamic coefficients using XFOIL and selected ANSYS Fluent cases, interpreted flow fields, and evaluated the modelling limits.</dd></div>
+            <div><dt>Finding</dt><dd>At the selected condition, NACA 4412 produced higher lift and drag coefficients than NACA 2412.</dd></div>
+            <div><dt>Judgement</dt><dd>I weighed lift against drag under matched operating conditions and considered the two-dimensional model’s limits before drawing design conclusions.</dd></div>
+          </dl>
+          <details class="study-notes">
+            <summary>Methods, source values &amp; flow-field images</summary>
+            <p>The main XFOIL comparison used Re = 2 × 10<sup>5</sup> and 3 × 10<sup>5</sup>. Complementary Fluent cases used Re = 1 × 10<sup>5</sup>, 2 × 10<sup>5</sup> and 3 × 10<sup>5</sup>, at 0° and 8°. The Fluent model used SST k–ω without a transition model.</p>
+            <p>This is a two-dimensional numerical comparison, without wind-tunnel or flight testing. The selected case does not establish an overall optimum or full-aircraft performance.</p>
+            <table class="source-values">
+              <caption>Table 4.2 subset · Re = 200,000 · angle of attack = 8°</caption>
+              <thead><tr><th scope="col">Aerofoil</th><th scope="col">Lift, C<sub>L</sub></th><th scope="col">Drag, C<sub>D</sub></th></tr></thead>
+              <tbody><tr><th scope="row">NACA 2412</th><td>0.6291</td><td>0.0573</td></tr><tr><th scope="row">NACA 4412</th><td>0.7311</td><td>0.0671</td></tr></tbody>
+            </table>
+            <p><a href="assets/files/fyp-selected-cfd-case.csv">Download these table values (CSV, under 1 KB)</a>.</p>
+            <figure class="supporting-figure">
+              <div class="project-gallery">
+                <a href="assets/images/fyp-velocity-1.jpg" aria-label="Open the first original velocity-contour image from Figure 4.4"><img src="assets/images/fyp-velocity-1.jpg" width="1106" height="632" loading="lazy" decoding="async" alt="First ANSYS Fluent velocity-contour output in Figure 4.4, showing flow around an aerofoil section."></a>
+                <a href="assets/images/fyp-velocity-2.jpg" aria-label="Open the second original velocity-contour image from Figure 4.4"><img src="assets/images/fyp-velocity-2.jpg" width="1106" height="671" loading="lazy" decoding="async" alt="Second velocity-contour output in Figure 4.4, showing an aerofoil section and its downstream wake."></a>
+              </div>
+              <figcaption>Original velocity contours: Figure 4.4 (report p. 27), Re = 200,000 and 8°. The images use separate colour scales; matching colours do not imply matching velocities.</figcaption>
+            </figure>
+          </details>
+          <a class="text-link" href="assets/files/aerofoil-study-summary.pdf">Project summary · PDF, 45 KB <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+
+      <article class="project-preview drawing-project" aria-labelledby="ball-throwing-title">
+        <p class="project-meta">03 / Team course project · February–May 2024</p>
+        <h3 id="ball-throwing-title">Ball-throwing vehicle</h3>
+        <figure>
+          <div class="drawing-preview mechanism-preview">
+            <a href="assets/images/ball-throwing-isometric.png" aria-label="Open the enlarged isometric view of the ball-throwing vehicle"><img src="assets/images/ball-throwing-isometric.png" width="1434" height="1150" loading="lazy" decoding="async" alt="Enlarged CAD isometric view of a four-wheeled vehicle, with a gear-driven pivoting arm and ball-handling end mechanism."></a>
+          </div>
+          <figcaption>Enlarged isometric view from my CAD drawing, 16 April 2024: wheeled chassis, geared pivot and ball-handling arm. Parts library: Makeblock. The complete drawing is available below.</figcaption>
+        </figure>
+        <div class="project-content">
+          <dl class="project-story">
+            <div><dt>Goal</dt><dd>Develop a mobile vehicle for ball pickup and throwing into a basket.</dd></div>
+            <div id="ball-programming-evidence"><dt>My work</dt><dd>I took the main programming role and contributed to the team’s design and assembly.</dd></div>
+            <div><dt>Design</dt><dd>A gear-driven pivoting arm with adjustable swing, mounted on a four-wheeled chassis.</dd></div>
+            <div><dt>Judgement</dt><dd>My design uses one arm for pickup and throwing, so its travel must accommodate both actions. The adjustable swing was intended to help aiming.</dd></div>
+            <div><dt>Output</dt><dd>A multi-view CAD drawing and an individual report documenting the mechanism and my contribution.</dd></div>
+          </dl>
+          <details class="study-notes">
+            <summary>Complete assembly drawing</summary>
+            <figure class="supporting-figure">
+              <div class="drawing-preview"><a href="assets/files/ball-throwing-vehicle-drawing.pdf" aria-label="Open the original multi-view assembly drawing PDF"><img src="assets/images/ball-throwing-vehicle-drawing.png" width="1800" height="1273" loading="lazy" decoding="async" alt="Complete CAD sheet showing top, front, side and isometric views of the ball-throwing vehicle, with dimensions and title block."></a></div>
+              <figcaption>The original drawing records Makeblock components assembled with screws and nuts. Open the PDF for dimensions and full resolution.</figcaption>
+            </figure>
+          </details>
+          <a class="text-link" href="assets/files/ball-throwing-vehicle-drawing.pdf">CAD assembly drawing · PDF, 460 KB <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+
+    </section>
+
+    <section id="background" aria-labelledby="background-title">
+      <p class="section-kicker">03 / Background</p>
+      <h2 id="background-title">Skills &amp; education</h2>
+      <div class="background-grid">
+        <div>
+          <h3>Skills in context</h3>
+          <dl class="skills-list">
+            <div><dt>CAD, vehicle design &amp; assembly</dt><dd>Design and assembly contributions in team vehicle projects; multi-view and exploded CAD drawings.<span class="skill-evidence"><a href="assets/files/ball-throwing-vehicle-drawing.pdf">CAD assembly drawing · PDF <span aria-hidden="true">↗</span></a></span></dd></div>
+            <div><dt>XFOIL &amp; ANSYS Fluent</dt><dd>Two-dimensional aerofoil comparison and selected CFD cases, with analysis of coefficients, flow fields and model limitations.<span class="skill-evidence"><a href="#aerofoil-title">View aerofoil comparison <span aria-hidden="true">↑</span></a></span></dd></div>
+            <div><dt>Component selection &amp; cost planning</dt><dd>Comparing design options and preparing an itemised BOM in the separate individual pipe-climber concept study.<span class="skill-evidence"><a href="#pipe-concept-evidence">View individual concept <span aria-hidden="true">↑</span></a></span></dd></div>
+            <div><dt>Vehicle programming</dt><dd>Main programming responsibility in the ball-throwing vehicle project, and programming contributions to the team pipe-climber prototype.<span class="skill-evidence"><a href="#ball-programming-evidence">View ball-vehicle contribution <span aria-hidden="true">↑</span></a></span></dd></div>
+          </dl>
+        </div>
+        <div class="education">
+          <h3>Education</h3>
+          <div class="education-item">
+            <h4>MSc Robotics</h4>
+            <p>The University of Manchester</p>
+            <p>September 2026 – August 2027 (expected)</p>
+          </div>
+          <div class="education-item">
+            <h4>Mechanical Design, Manufacturing and Automation</h4>
+            <p>North China University of Technology<br>Brunel University of London</p>
+            <p>Joint undergraduate programme</p>
+            <p>September 2022 – June 2026</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <p class="section-kicker">04 / Get in touch</p>
+      <h2 id="contact-title">Contact &amp; credits</h2>
+      <p class="contact-profiles">GitHub profile: <a href="https://github.com/JalenCao">JalenCao</a>.</p>
+      <p class="contact-profiles">Email: <a class="contact-email" href="mailto:zijian.cao-3@postgrad.manchester.ac.uk">zijian.cao-3@postgrad.manchester.ac.uk</a></p>
+      <details class="credits">
+        <summary>Design, sources &amp; AI assistance</summary>
+        <p>Design adapted from <a href="https://html5up.net/strata">Strata</a> by <a href="https://html5up.net">HTML5 UP</a> (AJ / @ajlkn), under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>. Changes include layout, typography, navigation and replacement of demo content. <a href="LICENSE-strata.txt">Template licence</a>.</p>
+        <p>Portrait supplied by Zijian Cao. The CFD comparison chart replots the Re = 200,000, 8° entries in Table 4.2 (report p. 23) of his April 2026 report, <cite>Comparative Aerodynamic Study of Two NACA Aerofoil Profiles at Low Reynolds Numbers</cite>. The CSV contains this selected table subset. The two original flow-field images are from Figure 4.4 (p. 27). The linked summary was prepared from that report.</p>
+        <p>Ball-throwing vehicle CAD drawing: Zijian Cao, 16 April 2024. Parts library: Makeblock. The enlarged view is cropped from a rendering of the original PDF; the complete drawing is linked without alteration. The individual report is retained locally.</p>
+        <p>ME2628 prototype video, poster and checklist: Team 2 — Zijian Cao, Yuefeng Zhao, Haoqiang Shan, Peifeng Shao and Jiaxin Tang. Video excerpts use the supplied recording: the trial is from 1:32–1:42 and the development sequence from 0:10–1:42. The web copies omit audio and student-identification/classroom slides; no action is generated or retimed. Student identifiers were removed from the portfolio poster copy, with team authors retained. The supporting documents retain different BOM snapshots; their cost figures have not been presented as verified expenditure.</p>
+        <p>ME2624 individual concept drawings: Zijian Cao, 27 December 2024. The two-sheet PDF is linked without alteration. This theoretical design and its original cost plan are separate from the ME2628 physical prototype.</p>
+        <p>OpenAI Codex assisted with requirements review, material organisation, English drafting, CV and project-summary preparation, and HTML/CSS development on 25–27 October 2026. Assistance also included preparing real video excerpts, an identifier-free poster copy, a cropped CAD preview and a chart of reported coefficients. Project media and values come from the author’s supplied coursework; no additional engineering results were generated.</p>
+      </details>
+    </section>
+
+    <footer class="page-footer">
+      <span>© 2026 Zijian Cao</span>
+      <a href="#about">Back to introduction <span aria-hidden="true">↑</span></a>
+      <span class="footer-design">Adapted design: <a href="https://html5up.net/strata">Strata</a> by <a href="https://html5up.net">HTML5 UP</a> · <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></span>
+    </footer>
+  </main>
+</body>
+</html>
