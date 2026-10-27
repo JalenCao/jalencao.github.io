@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="600" height="850" preserveAspectRatio="xMinYMin meet" viewBox="0 0 600 850" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="600" height="850"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-850)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="600" height="850" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="26" y="812" style="font-family: Helvetica-Bold; font-size: 27px;fill: rgb(14%,23%,25%); stroke:none;" transform="translate(0,1624) scale(1,-1)">Representative CFD comparison</text>
+			<text x="26" y="779" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px;fill: rgb(38%,44%,45%); stroke:none;" transform="translate(0,1558) scale(1,-1)">Re = 200,000  |  Angle of attack = 8 degrees</text>
+			<text x="142" y="702" style="font-family: Helvetica-Bold; font-size: 23px;fill: rgb(14%,23%,25%); stroke:none;" transform="translate(0,1404) scale(1,-1)">Lift coefficient (CL)</text>
+			<g transform="">
+				<path d="M 142,458 L 142,668 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 0.6;"/>
+				<path d="M 232,458 L 232,668 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 0.6;"/>
+				<path d="M 322,458 L 322,668 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 0.6;"/>
+				<path d="M 412,458 L 412,668 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 0.6;"/>
+				<path d="M 502,458 L 502,668 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 0.6;"/>
+				<g transform="">
+					<rect x="142.0" y="568.8333333333334" width="283.09499999999997" height="93.33333333333337" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0; fill: rgb(9%,41%,37%); fill-rule: evenodd;"/>
+					<rect x="142.0" y="463.8333333333333" width="328.995" height="93.33333333333331" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0; fill: rgb(64%,42%,19%); fill-rule: evenodd;"/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,435.095,615.5)">
+							<text x="0.0" y="-10.4" style="font-family: Helvetica-Bold; font-size: 26px;fill: rgb(14%,23%,25%); stroke:none;" transform="translate(0,-20) scale(1,-1)">0.6291</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,480.995,510.5)">
+							<text x="0.0" y="-10.4" style="font-family: Helvetica-Bold; font-size: 26px;fill: rgb(14%,23%,25%); stroke:none;" transform="translate(0,-20) scale(1,-1)">0.7311</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 142,458 L 142,668 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform=""/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,130,510.5)">
+							<text x="-126.72" y="-9.600000000000001" style="font-family: Helvetica, Arial, sans-serif; font-size: 24px;fill: rgb(14%,23%,25%); stroke:none;" transform="translate(0,-19) scale(1,-1)">NACA 4412</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,130,615.5)">
+							<text x="-126.72" y="-9.600000000000001" style="font-family: Helvetica, Arial, sans-serif; font-size: 24px;fill: rgb(14%,23%,25%); stroke:none;" transform="translate(0,-19) scale(1,-1)">NACA 2412</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 142,458 L 502,458 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 142,458 L 142,453 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 232,458 L 232,453 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 322,458 L 322,453 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 412,458 L 412,453 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 502,458 L 502,453 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,142,453)">
+							<text x="-13.900000000000002" y="-20.0" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px;fill: rgb(38%,44%,45%); stroke:none;" transform="translate(0,-40) scale(1,-1)">0.0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,232,453)">
+							<text x="-13.900000000000002" y="-20.0" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px;fill: rgb(38%,44%,45%); stroke:none;" transform="translate(0,-40) scale(1,-1)">0.2</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,322,453)">
+							<text x="-13.900000000000002" y="-20.0" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px;fill: rgb(38%,44%,45%); stroke:none;" transform="translate(0,-40) scale(1,-1)">0.4</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,412,453)">
+							<text x="-13.900000000000002" y="-20.0" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px;fill: rgb(38%,44%,45%); stroke:none;" transform="translate(0,-40) scale(1,-1)">0.6</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,502,453)">
+							<text x="-13.900000000000002" y="-20.0" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px;fill: rgb(38%,44%,45%); stroke:none;" transform="translate(0,-40) scale(1,-1)">0.8</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="142" y="342" style="font-family: Helvetica-Bold; font-size: 23px;fill: rgb(14%,23%,25%); stroke:none;" transform="translate(0,684) scale(1,-1)">Drag coefficient (CD)</text>
+			<g transform="">
+				<path d="M 142,98 L 142,308 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 0.6;"/>
+				<path d="M 232,98 L 232,308 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 0.6;"/>
+				<path d="M 322,98 L 322,308 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 0.6;"/>
+				<path d="M 412,98 L 412,308 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 0.6;"/>
+				<path d="M 502,98 L 502,308 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 0.6;"/>
+				<g transform="">
+					<rect x="142.0" y="208.83333333333334" width="257.84999999999997" height="93.33333333333334" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0; fill: rgb(9%,41%,37%); fill-rule: evenodd;"/>
+					<rect x="142.0" y="103.83333333333333" width="301.95000000000005" height="93.33333333333336" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 0; fill: rgb(64%,42%,19%); fill-rule: evenodd;"/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,409.85,255.5)">
+							<text x="0.0" y="-10.4" style="font-family: Helvetica-Bold; font-size: 26px;fill: rgb(14%,23%,25%); stroke:none;" transform="translate(0,-20) scale(1,-1)">0.0573</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,453.95,150.5)">
+							<text x="0.0" y="-10.4" style="font-family: Helvetica-Bold; font-size: 26px;fill: rgb(14%,23%,25%); stroke:none;" transform="translate(0,-20) scale(1,-1)">0.0671</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 142,98 L 142,308 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform=""/>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,130,150.5)">
+							<text x="-126.72" y="-9.600000000000001" style="font-family: Helvetica, Arial, sans-serif; font-size: 24px;fill: rgb(14%,23%,25%); stroke:none;" transform="translate(0,-19) scale(1,-1)">NACA 4412</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,130,255.5)">
+							<text x="-126.72" y="-9.600000000000001" style="font-family: Helvetica, Arial, sans-serif; font-size: 24px;fill: rgb(14%,23%,25%); stroke:none;" transform="translate(0,-19) scale(1,-1)">NACA 2412</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 142,98 L 502,98 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<path d="M 142,98 L 142,93 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 232,98 L 232,93 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 322,98 L 322,93 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 412,98 L 412,93 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+						<path d="M 502,98 L 502,93 Z" style="stroke: rgb(86%,89%,87%); stroke-linecap: butt; stroke-width: 1;"/>
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,142,93)">
+							<text x="-19.46" y="-20.0" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px;fill: rgb(38%,44%,45%); stroke:none;" transform="translate(0,-40) scale(1,-1)">0.00</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,232,93)">
+							<text x="-19.46" y="-20.0" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px;fill: rgb(38%,44%,45%); stroke:none;" transform="translate(0,-40) scale(1,-1)">0.02</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,322,93)">
+							<text x="-19.46" y="-20.0" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px;fill: rgb(38%,44%,45%); stroke:none;" transform="translate(0,-40) scale(1,-1)">0.04</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,412,93)">
+							<text x="-19.46" y="-20.0" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px;fill: rgb(38%,44%,45%); stroke:none;" transform="translate(0,-40) scale(1,-1)">0.06</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,502,93)">
+							<text x="-19.46" y="-20.0" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px;fill: rgb(38%,44%,45%); stroke:none;" transform="translate(0,-40) scale(1,-1)">0.08</text>
+						</g>
+					</g>
+				</g>
+			</g>
+			<text x="26" y="42" style="font-family: Helvetica, Arial, sans-serif; font-size: 17px;fill: rgb(38%,44%,45%); stroke:none;" transform="translate(0,84) scale(1,-1)">Table 4.2, report p. 23. Numerical CFD results.</text>
+			<text x="26" y="20" style="font-family: Helvetica, Arial, sans-serif; font-size: 17px;fill: rgb(38%,44%,45%); stroke:none;" transform="translate(0,40) scale(1,-1)">Lift and drag use separate coefficient scales.</text>
+		</g>
+	</g>
+</svg>
